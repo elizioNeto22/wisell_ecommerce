@@ -1,0 +1,41 @@
+.group {
+  min-width: 125px;
+  width: auto;
+  display: flex;
+  color: #000000;
+  font-size: 18px;
+  font-weight: normal;
+  height: 30px;
+  border-radius: 4px;
+  // background-clip: padding-box;
+  background-color: #fff;
+
+  .form-input {
+    font-size: 14px;
+    min-width: 400px;
+    width: auto;
+    height: 30px;
+    color: #8c8c8c;
+    border: 0;
+    line-height: 32px;
+    border-radius: 4px;
+    // background-clip: padding-box;
+    padding: 0 10px;
+  }
+
+  .form-input-label {
+    text-decoration: none;
+    width: 50px;
+    font-size: 25px;
+    float: right;
+    background-color: none;
+    text-align: center;
+    border: 1px solid #e5e5e5;
+    color: #686868;
+    display: table;
+    cursor: pointer;
+    border-radius: 0 2px 2px 0;
+    // background-clip: padding-box;
+    border: 0;
+  }
+}
