@@ -16,8 +16,6 @@ const BarraMedia = () => {
         <Link to="/">
           <Logo />
         </Link>
-        {/* <div className="logo">
-        </div> */}
         <SearchBar />
         <nav>
           <ul>

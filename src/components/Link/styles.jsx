@@ -8,6 +8,8 @@ const getLinkSizes = ({ size }) => {
     return largeLink
   } else if (size === 'md') {
     return mediumLink
+  } else if (size === 'mm') {
+    return miniLink
   } else return smallLink
 }
 
@@ -25,6 +27,11 @@ const linkHover = css`
   &:hover::after {
     width: 100%;
   }
+`
+
+const miniLink = css`
+  font-size: 12px;
+  font-weight: 400;
 `
 
 const smallLink = css`

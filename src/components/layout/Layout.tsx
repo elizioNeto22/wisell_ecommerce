@@ -1,6 +1,6 @@
 import React from 'react'
 import BarraSuperior from '../../pages/BarraSuperior'
-import NavBar from '../nav/Navbar'
+import BannerCarrossel from '../../components/BannerCarrossel'
 import BarraMedia from '../../pages/BarraMedia'
 import BarraMenu from '../../pages/BarraMenu'
 
@@ -12,7 +12,7 @@ const Layout: React.FC<Props> = ({ children }) => {
       <BarraSuperior />
       <BarraMedia />
       <BarraMenu />
-      {/* <NavBar /> */}
+      {/* <BannerCarrossel /> */}
       <div className="page">{children}</div>
     </>
   )

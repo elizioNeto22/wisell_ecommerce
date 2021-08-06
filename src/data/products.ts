@@ -1,77 +1,96 @@
 export const products = [
   {
     id: '1',
-    title: 'Slim Formal Cotton Shirt',
-    description: 'The slim formal shirt made with cotton.',
-    price: 33,
+    title: 'Sulcador Ajustável Kawashima',
+    description: 'Sulcador Ajustável Kawashima P/ Motocultivador MCG 780 MCD 580',
+    price: 357.23,
     imageUrl:
-      'https://d1yluyhql7qeci.cloudfront.net/ckecom/images/media/store1/2021/02/medium1614229391xpZ3B25805.JPG',
+      'https://d2figssdufzycg.cloudfront.net/Custom/Content/Products/12/65/12656134_sulcador-ajustvel-para-motocultivador-mcg-780-mcd-580-kawashima-102645_m1_637383575624084907.jpg',
     inventory: 330,
     imageRef: '',
     imageFileName: '',
-    category: ''
-
+    category: '',
   },
   {
     id: '2',
-    title: 'The Wool Shirt',
-    description:
-      'The wool shirt made with a tailored fit. The true original, optimized for rugged outdoor adventures.',
-    price: 40,
-    imageUrl:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSGJKYof4yQS64n2fQrrbdYXqYMUuC-RuLRQA&usqp=CAU',
+    title: 'Pulverizador Quadriciclo',
+    description: 'Pulverizador Quadriciclo Barra E Lança 15m Plq0150 Moldemaq',
+    price: 8829.29,
+    imageUrl: 'https://http2.mlstatic.com/D_NQ_NP_887176-MLB46398707085_062021-O.webp',
     inventory: 330,
     imageRef: '',
     imageFileName: '',
-    category: ''
+    category: '',
   },
   {
     id: '3',
-    title: 'Adult Nike T-Shirt',
-    description: 'The Nike T-Shirt for adult, red color.',
-    price: 19,
+    title: 'Carreta Agrícola',
+    description: 'Carreta Agrícola P/ Trator Transporte De Grama Trapp 2930071 Até 225Kg',
+    price: 1574.19,
     imageUrl:
-      'https://messisport-e281.kxcdn.com/25511-large_default/n4149-nike-f-c-t-shirt-noble-red.jpg',
+      'https://d2figssdufzycg.cloudfront.net/Custom/Content/Products/10/97/10976476_carreta-de-trator-transporte-de-grama-225-kg-2930071-trapp-72779_z1_635937458166056000.jpg',
     inventory: 330,
     imageRef: '',
     imageFileName: '',
-    category: ''
-
+    category: '',
   },
   {
     id: '4',
-    title: 'Red Wing Leather Belt',
-    description: "Men's Belt in Amber Pioneer Leather.",
-    price: 39,
+    title: 'Sela Artesanal para Tambor',
+    description: 'Sela Artesanal para Tambor Master Selas 1007MS',
+    price: 3357.23,
     imageUrl:
-      'https://embed.widencdn.net/img/redwing/li8hzmk8tw/600x600px/RH96501C_WEB_NA_1016?position=S&crop=no&color=EDE8DD',
-    inventory: 330,
+      'https://img.irroba.com.br/fit-in/500x500/filters:format(webp):fill(fff):quality(95)/cavalari/catalog/loja/selas/master-selas/sela13.jpg',
+    inventory: 3,
     imageRef: '',
     imageFileName: '',
-    category: ''
+    category: '',
   },
   {
     id: '5',
-    title: "Men's Golf Belt",
-    description: 'Find the Nike Flat Edge Acu-Fit at Nike.com.',
-    price: 33,
-    imageUrl:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRGyTdwXFNepn3UWT3i9mfgFG4lSJ4FyO6s_zxnBJaciMebvvHxpHLDkNtUBeu27Pqli7Bl1qCP&usqp=CAc',
+    title: 'Pulverizador Quadriciclo',
+    description: 'Pulverizador Quadriciclo Barra E Lança 15m Plq0150 Moldemaq',
+    price: 8829.29,
+    imageUrl: 'https://http2.mlstatic.com/D_NQ_NP_887176-MLB46398707085_062021-O.webp',
     inventory: 330,
     imageRef: '',
     imageFileName: '',
-    category: ''
+    category: '',
   },
   {
     id: '6',
-    title: 'Beta Belt',
-    description: 'Beta Belt - Black Diamond Gear.',
-    price: 24,
+    title: 'Carreta Agrícola',
+    description: 'Carreta Agrícola P/ Trator Transporte De Grama Trapp 2930071 Até 225Kg',
+    price: 1574.19,
     imageUrl:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRg1b7-qjnQhESWcE59-DtL2RMXaqHeDoPkQMt3NPL00GYWriPAvCw7sNjXP-hTb7B2IP6xfFU&usqp=CAc',
+      'https://d2figssdufzycg.cloudfront.net/Custom/Content/Products/10/97/10976476_carreta-de-trator-transporte-de-grama-225-kg-2930071-trapp-72779_z1_635937458166056000.jpg',
     inventory: 330,
     imageRef: '',
     imageFileName: '',
-    category: ''
+    category: '',
+  },
+  {
+    id: '7',
+    title: 'Sulcador Ajustável Kawashima',
+    description: 'Sulcador Ajustável Kawashima P/ Motocultivador MCG 780 MCD 580',
+    price: 357.23,
+    imageUrl:
+      'https://d2figssdufzycg.cloudfront.net/Custom/Content/Products/12/65/12656134_sulcador-ajustvel-para-motocultivador-mcg-780-mcd-580-kawashima-102645_m1_637383575624084907.jpg',
+    inventory: 330,
+    imageRef: '',
+    imageFileName: '',
+    category: '',
+  },
+  {
+    id: '8',
+    title: 'Carreta Agrícola',
+    description: 'Carreta Agrícola P/ Trator Transporte De Grama Trapp 2930071 Até 225Kg',
+    price: 1574.19,
+    imageUrl:
+      'https://d2figssdufzycg.cloudfront.net/Custom/Content/Products/10/97/10976476_carreta-de-trator-transporte-de-grama-225-kg-2930071-trapp-72779_z1_635937458166056000.jpg',
+    inventory: 330,
+    imageRef: '',
+    imageFileName: '',
+    category: '',
   },
 ]

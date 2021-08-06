@@ -6,47 +6,42 @@ import { FiMenu } from 'react-icons/fi'
 
 import './styles.scss'
 
+const DropdownItem = [
+  'Agrícola',
+  'Ferragens',
+  'Medicamentos',
+  'Biológicos',
+  'Ordenha',
+  'Defensivos',
+  'Fertilizantes',
+  'Jardinagem',
+  'Pet',
+  'Sementes',
+  'Selaria',
+  'Rações Balanceadas',
+  'Suplementos Minerais',
+  'Instrumentos Veterinários',
+  'Ingredientes para Nutrição Animal',
+]
+
+const Links = ['AGRÍCOLA', 'FERRAGENS', 'MEDICAMENTOS', 'DEFENSIVOS', 'FERTILIZANTES', 'JARDINAGEM', 'PET', 'SEMENTES']
+
 const BarraMenu = () => {
   return (
     <div className="menu-container">
       <ul>
         <li className="departamentos">
           <CustomLink href="#" size="md">
-            <Dropdown items={['Acessórios', 'Fertilizantes', 'Sementes', 'Adubos', 'Máquinas']}>
-              Todos os Departamentos
-            </Dropdown>
+            <Dropdown items={DropdownItem}>Todos os Departamentos</Dropdown>
           </CustomLink>
         </li>
-        <li>
-          <CustomLink href="#" size="md" hover>
-            Acessórios
-          </CustomLink>
-        </li>
-        <li>
-          <CustomLink href="#" size="md" hover>
-            Fertilizantes
-          </CustomLink>
-        </li>
-        <li>
-          <CustomLink href="#" size="md" hover>
-            Sementes
-          </CustomLink>
-        </li>
-        <li>
-          <CustomLink href="#" size="md" hover>
-            Adubos
-          </CustomLink>
-        </li>
-        <li>
-          <CustomLink href="#" size="md" hover>
-            Máquinas
-          </CustomLink>
-        </li>
-        <li>
-          <CustomLink href="#" size="md" hover>
-            Promoções
-          </CustomLink>
-        </li>
+        {Links.map((item) => (
+          <li>
+            <CustomLink href="#" size="sm" hover>
+              {item}
+            </CustomLink>
+          </li>
+        ))}
       </ul>
     </div>
   )
