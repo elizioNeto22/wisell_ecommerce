@@ -11,22 +11,22 @@ const BarraSuperior = () => {
       <div className="superior-link-group">
         <ul>
           <li>
-            <CustomLink href="#" size="sm">
+            <CustomLink href="#" size="mm">
               Nossas lojas
             </CustomLink>
           </li>
           <li>
-            <CustomLink href="#" size="sm">
+            <CustomLink href="#" size="mm">
               Tenha sua loja
             </CustomLink>
           </li>
           <li>
-            <CustomLink href="#" size="sm">
+            <CustomLink href="#" size="mm">
               Regulamentos
             </CustomLink>
           </li>
           <li>
-            <CustomLink href="#" size="sm">
+            <CustomLink href="#" size="mm">
               Guia de Segurança
             </CustomLink>
           </li>

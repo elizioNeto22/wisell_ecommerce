@@ -5,7 +5,9 @@ const getTextStyles = ({ size }) => {
     return largeText
   } else if (size === 'md') {
     return mediumText
-  } else return smallText
+  } else if (size === 'sm') {
+    return smallText
+  } else return miniText
 }
 
 const largeText = css`
@@ -23,6 +25,12 @@ const mediumText = css`
 const smallText = css`
   /* padding: 0 55px 0 55px; */
   font-size: 14px;
+  color: white;
+`
+
+const miniText = css`
+  /* padding: 0 55px 0 55px; */
+  font-size: 12px;
   color: white;
 `
 
