@@ -1,16 +1,23 @@
-.product {
-  .product__detail-image {
-    height: 7rem;
-    width: 105px;
-  }
+@import '../../styles/responsive';
 
-  .product__detail {
-    height: 1rem;
-    h4 {
-      font-size: 12px;
+@include breakpoint('mobile') {
+  .products {
+    border: 1px solid efefef;
+  }
+  .product {
+    .product__detail-image {
+      height: 7rem;
+      width: 105px;
     }
-    p {
-      font-size: 12px;
+
+    .product__detail {
+      height: 1rem;
+      h4 {
+        font-size: 12px;
+      }
+      p {
+        font-size: 12px;
+      }
     }
   }
 }

@@ -1,13 +1,15 @@
-.page--products {
-  margin-top: 50px;
-  height: 100%;
-}
+.page {
+  .page--products {
+    margin-top: 50px;
+    height: 100%;
+  }
 
-.products-category {
-  padding-bottom: 5px;
-  width: 100%;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  border-bottom: 1px solid rgba(40, 44, 52, 0.3);
+  .products-category {
+    padding-bottom: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 1px solid rgba(40, 44, 52, 0.3);
+  }
 }

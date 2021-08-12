@@ -5,6 +5,10 @@
   .media-container {
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
     padding: 5px 0px;
+    // position: fixed;
+    // top: 0;
+    // z-index: 10;
+    // background: #fff;
 
     .searchbar-container:last-child {
       display: flex;
