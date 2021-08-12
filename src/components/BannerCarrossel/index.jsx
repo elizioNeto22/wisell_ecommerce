@@ -2,6 +2,7 @@ import React from 'react'
 import CustomLink from '../Link'
 
 import './styles.scss'
+import './styles-mobile.scss'
 
 const Dropdown = () => (
   <div class="gallery js-flickity" data-flickity-options='{ "wrapAround": true }'>

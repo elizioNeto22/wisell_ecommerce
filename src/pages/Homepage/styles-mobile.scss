@@ -1,0 +1,25 @@
+@import '../../styles/colors';
+@import '../../styles/responsive';
+
+@include breakpoint('mobile') {
+  .page {
+    width: 100%;
+    margin: 1rem auto;
+    z-index: 1;
+
+    .page--products {
+      margin: 10px auto;
+
+      .products {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+        padding: 0px 2%;
+      }
+    }
+
+    .products-category {
+      background: #000;
+    }
+  }
+}

@@ -5,6 +5,7 @@ import Dropdown from '../../components/Dropdown'
 import { FiMenu } from 'react-icons/fi'
 
 import './styles.scss'
+import './styles-mobile.scss'
 
 const DropdownItem = [
   'Agrícola',

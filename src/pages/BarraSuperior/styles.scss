@@ -1,8 +1,9 @@
+@import '../../styles/colors';
+
 .superior-container {
   width: 100%;
   height: 10px;
-  background-color: #fff;
-  background-color: #a8ca64;
+  background-color: $verde;
   display: flex;
   justify-content: space-between;
   // align-items: center;

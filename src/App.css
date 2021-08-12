@@ -542,13 +542,13 @@
 }
 
 /* Page */
-.page {
+/* .page {
   width: 80%;
   height: 100%;
   margin: 1rem auto;
   padding: 1rem;
   z-index: 1;
-}
+} */
 
 /* Sidebar */
 .page--sidebar {
@@ -778,7 +778,7 @@
   text-align: center;
 }
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
   .products {
     grid-template-columns: 1fr;
     column-gap: normal;
@@ -787,7 +787,7 @@
   .products-category {
     width: 100%;
   }
-}
+} */
 
 /* Product Detail Page */
 .page--product-detail {

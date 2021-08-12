@@ -4,6 +4,7 @@ import CustomLink from '../../components/Link'
 import { Text } from '../../components/Text'
 
 import './styles.scss'
+import './styles-mobile.scss'
 
 const BarraSuperior = () => {
   return (

@@ -1,0 +1,36 @@
+@import '../../styles/colors';
+@import '../../styles/responsive';
+
+@include breakpoint('mobile') {
+  .media-container {
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    padding: 5px 0px;
+    .hamburger-menu {
+      display: initial;
+    }
+  }
+  .header {
+    padding: 10px 5%;
+    height: 2rem;
+    box-shadow: none;
+
+    .logo-container a svg {
+      width: 130px;
+      height: 130px;
+    }
+
+    .searchbar-container {
+      display: none;
+    }
+
+    nav ul .login-link,
+    .user-icone {
+      display: none;
+    }
+  }
+
+  .searchbar-container {
+    width: 85vw;
+    margin: 5px auto;
+  }
+}

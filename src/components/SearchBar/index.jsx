@@ -3,7 +3,7 @@ import { MdSearch } from 'react-icons/md'
 import './styles.scss'
 
 const FormInput = ({ ...otherProps }) => (
-  <div className="group">
+  <div className="searchbar-container">
     <label className="form-input-label">
       <MdSearch />
     </label>

@@ -5,6 +5,7 @@ import BannerCarrossel from '../../components/BannerCarrossel'
 import { products } from '../../data/products'
 
 import './styles.scss'
+import './styles-mobile.scss'
 
 const Homepage = () => {
   return (

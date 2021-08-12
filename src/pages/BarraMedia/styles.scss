@@ -1,10 +1,16 @@
+@import '../../styles/responsive';
+
 .media-container {
   width: 100%;
+
+  // Mobile
+  .hamburger-menu {
+    display: none;
+  }
 }
 
 .header {
   height: 5rem;
-  background-color: #a8ca64;
   background-color: #fff;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
   display: flex;

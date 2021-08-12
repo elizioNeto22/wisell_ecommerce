@@ -3,8 +3,11 @@ import SearchBar from '../../components/SearchBar'
 import { FiUser, FiShoppingCart } from 'react-icons/fi'
 import { ReactComponent as Logo } from '../../assets/logo3.svg'
 import CustomLink from '../../components/Link'
+import HamburgerMenu from '../../components/HamburgerMenu'
+import BarraMediaMobile from './index-mobile'
 
 import './styles.scss'
+import './styles-mobile.scss'
 
 const BarraMedia = () => {
   const logoutHandler = () => {
@@ -14,27 +17,31 @@ const BarraMedia = () => {
   return (
     <div className="media-container">
       <header className="header">
-        <Link to="/">
-          <Logo />
-        </Link>
+        <HamburgerMenu />
+        <div className="logo-container">
+          <Link to="/">
+            <Logo />
+          </Link>
+        </div>
         <SearchBar />
         <nav>
           <ul>
-            <li>
+            <li className="login-link">
               <p>
                 <span>Bem-vindo :)</span>
                 <CustomLink size="sm">Entre ou Cadastre-se</CustomLink>
               </p>
             </li>
-            <li>
+            <li className="carrinho-icone">
               <FiShoppingCart />
             </li>
-            <li>
+            <li className="user-icone">
               <FiUser />
             </li>
           </ul>
         </nav>
       </header>
+      <SearchBar />
     </div>
   )
 }
