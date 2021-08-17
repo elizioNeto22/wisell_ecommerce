@@ -13,8 +13,11 @@ const HamburgerMenu = () => {
       <label className="menu__btn" for="menu__toggle">
         <span></span>
       </label>
-
       <ul className="menu__box">
+        <div className="login-menu">
+          {/* <img src="https://img.icons8.com/fluency-systems-regular/50/000000/user.png" /> */}
+          <CustomLink>Entre ou Cadastre-se</CustomLink>
+        </div>
         <li className="menu__item">
           <CustomLink href="#">Agrícola</CustomLink>
         </li>

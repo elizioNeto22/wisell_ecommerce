@@ -2,21 +2,33 @@
 
 @include breakpoint('mobile') {
   .products {
-    border: 1px solid efefef;
+    // border: 1px solid #efefef;
+    gap: 1rem;
   }
-  .product {
-    .product__detail-image {
-      height: 7rem;
-      width: 105px;
+  .product-container {
+    height: 260px;
+    max-width: 140px;
+    padding: 10px;
+
+    .product-image {
+      img {
+        height: 7rem;
+        width: 140px;
+      }
     }
 
-    .product__detail {
-      height: 1rem;
-      h4 {
-        font-size: 12px;
+    .product-description {
+      .product-sale p {
+        font-size: 10px;
       }
-      p {
-        font-size: 12px;
+      .product-sale p:first-child {
+        font-size: 8px;
+      }
+
+      .product-sale-result {
+        p {
+          font-size: 10px;
+        }
       }
     }
   }
