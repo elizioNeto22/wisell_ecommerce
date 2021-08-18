@@ -1,0 +1,40 @@
+@import '../../styles/colors';
+@import '../../styles/responsive';
+
+@include breakpoint('mobile') {
+  .footer-wrapper {
+    .footer-container {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px 10%;
+      margin: 0px 0px;
+
+      .footer-section-container {
+        .footer-cards-container {
+          display: flex;
+          justify-content: space-between;
+          text-align: left;
+          .footer-pgto {
+            p {
+              font-size: 12px;
+              color: #000;
+            }
+            img {
+              width: 25px;
+            }
+          }
+        }
+
+        .footer-selos-container {
+          display: flex;
+          justify-content: space-between;
+          text-align: left;
+          img {
+            width: 90px;
+            margin: 0px 10px;
+          }
+        }
+      }
+    }
+  }
+}

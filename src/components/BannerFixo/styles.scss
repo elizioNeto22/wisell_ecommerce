@@ -1,0 +1,35 @@
+@import '../../styles/colors';
+
+.gallery:first-child {
+  background: $branco;
+  width: 100%;
+}
+.gallery {
+  background: $branco;
+  width: 90%;
+  margin-bottom: 50px;
+
+  .carousel-cell {
+    width: 15%;
+    height: 150px;
+    margin-right: 50px;
+    background: $verde-escuro;
+    border-radius: 5px;
+    counter-increment: carousel-cell;
+  }
+
+  button {
+    background: none;
+    // border-radius: 5px;
+  }
+}
+
+/* cell number */
+.carousel-cell:before {
+  display: block;
+  text-align: center;
+  content: counter(carousel-cell);
+  line-height: 200px;
+  font-size: 80px;
+  color: $branco;
+}

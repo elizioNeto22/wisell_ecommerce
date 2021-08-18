@@ -1,11 +1,13 @@
+@import '../../styles/colors';
+
 .newsletter-wrapper {
   width: 100%;
 }
 
 .newsletter-container {
   // width: 100%;
-  background-color: #fff;
-  background-color: #a8ca64;
+  background-color: $branco;
+  background-color: $verde;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -21,7 +23,7 @@
       display: block;
     }
     a {
-      border-bottom: 1px solid #fff;
+      border-bottom: 1px solid $branco;
     }
   }
 
@@ -35,15 +37,15 @@
       padding: 10px 40px;
       border-radius: 5px;
       border: none;
-      color: #82371b;
+      color: $marrom;
       &::placeholder {
-        color: #c2c2c2;
+        color: $cinza-escuro;
       }
     }
     button {
       border-radius: 5px;
-      color: #fff;
-      background: #82371b;
+      color: $branco;
+      background: $marrom;
     }
   }
 }

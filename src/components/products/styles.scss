@@ -1,7 +1,7 @@
 @import '../../styles/colors';
 
 .product-container {
-  background: #f6f6f6;
+  background: $cinza;
   // width: 220px;
   height: 320px;
   margin: 50px 0px;
@@ -19,7 +19,7 @@
       width: 20px;
     }
     svg:first-child {
-      fill: #ff0000;
+      fill: $vermelho;
     }
   }
 

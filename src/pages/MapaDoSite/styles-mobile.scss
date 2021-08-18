@@ -1,0 +1,8 @@
+@import '../../styles/colors';
+@import '../../styles/responsive';
+
+@include breakpoint('mobile') {
+  .mapa-do-site-wrapper {
+    display: none;
+  }
+}

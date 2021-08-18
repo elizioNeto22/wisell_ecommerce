@@ -4,8 +4,8 @@ import CustomLink from '../Link'
 import './styles.scss'
 import './styles-mobile.scss'
 
-const Dropdown = () => (
-  <div class="gallery js-flickity" data-flickity-options='{ "wrapAround": true }'>
+const BannerCarrossel = () => (
+  <div class="gallery js-flickity" data-flickity-options='{ "wrapAround": true, "autoPlay": true }'>
     <div class="gallery-cell">
       <img
         src="https://img.irroba.com.br/fit-in/1140x1140/filters:format(webp):quality(95)/cavalari/catalog/banners-novos/agosto21/cavalaria-banner03.png"
@@ -26,6 +26,4 @@ const Dropdown = () => (
   </div>
 )
 
-export default Dropdown
-
-// { children, items, ...props }
+export default BannerCarrossel
