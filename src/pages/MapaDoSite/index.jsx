@@ -1,8 +1,6 @@
 import React from 'react'
 
 import CustomLink from '../../components/Link'
-import CustomButton from '../../components/Button'
-import { Text } from '../../components/Text'
 
 import './styles.scss'
 import './styles-mobile.scss'
