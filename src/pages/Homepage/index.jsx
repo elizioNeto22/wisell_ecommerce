@@ -2,6 +2,7 @@ import React from 'react'
 import ProductItem from '../../components/products/ProductItem'
 import BannerCarrossel from '../../components/BannerCarrossel'
 import BannerFixo from '../../components/BannerFixo'
+import Filtro from '../../components/Filtro'
 
 import { products } from '../../data/products'
 
@@ -19,6 +20,7 @@ const Homepage = () => {
           ))}
         </div>
       </div>
+      {/* <Filtro /> */}
       <BannerFixo />
     </div>
   )

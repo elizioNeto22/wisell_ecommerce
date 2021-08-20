@@ -5,6 +5,7 @@ import BarraMenu from '../../pages/BarraMenu'
 import Newsletter from '../../components/Newsletter'
 import MapaDoSite from '../../pages/MapaDoSite'
 import Footer from '../../pages/Footer'
+import Filtro from '../Filtro'
 
 interface Props {}
 
@@ -18,6 +19,7 @@ const Layout: React.FC<Props> = ({ children }) => {
       <div className="page">{children}</div>
       <MapaDoSite />
       <Footer />
+      <Filtro />
     </>
   )
 }
