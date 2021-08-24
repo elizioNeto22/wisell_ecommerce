@@ -4,7 +4,10 @@ import { Navigation } from 'react-minimal-side-navigation'
 import 'react-minimal-side-navigation/lib/ReactMinimalSideNavigation.css'
 import { BiExit } from 'react-icons/bi'
 
+import CustomButton from '../../components/Button'
+
 import './styles.scss'
+import './styles-mobile.scss'
 
 const Filtro = () => {
   return (
@@ -119,6 +122,14 @@ const Filtro = () => {
               </ul>
             </div>
           </div>
+
+          <div className="slider-menu">
+            <h4 className="menu-title">Preço</h4>
+            <input className="slider" type="range" name="slider" />
+            <span>$1 - $599</span>
+          </div>
+
+          <CustomButton>Aplicar</CustomButton>
         </div>
       </div>
     </div>

@@ -9,13 +9,17 @@
 
     .page--products {
       margin: 10px auto;
-
+      // display: flex;
       .products {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
         justify-items: center;
         padding: 0px 2%;
         gap: 1rem;
+        margin: 0px 90px;
+        // display: flex;
+        // flex-direction: column;
+        // align-items: flex-end;
       }
     }
 

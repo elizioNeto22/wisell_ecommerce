@@ -64,7 +64,7 @@ const largeButton = css`
 `
 
 export const ButtonContainer = styled.button`
-  min-width: 125px;
+  min-width: 75px;
   width: auto;
   padding: 10px 20px;
   font-size: 14px;

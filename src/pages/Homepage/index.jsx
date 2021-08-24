@@ -14,13 +14,13 @@ const Homepage = () => {
     <div className="home-container">
       <BannerCarrossel />
       <div className="page--products">
+        <Filtro />
         <div className="products">
           {products.map((product) => (
             <ProductItem key={product.id} product={product} />
           ))}
         </div>
       </div>
-      {/* <Filtro /> */}
       <BannerFixo />
     </div>
   )

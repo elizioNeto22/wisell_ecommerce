@@ -19,7 +19,7 @@ const Layout: React.FC<Props> = ({ children }) => {
       <div className="page">{children}</div>
       <MapaDoSite />
       <Footer />
-      <Filtro />
+      {/* <Filtro /> */}
     </>
   )
 }
