@@ -7,6 +7,7 @@ import { BiDollarCircle, BiHeart, BiPlusCircle, BiMinusCircle } from 'react-icon
 import CustomButton from '../Button'
 import Dropdown from '../Dropdown'
 import BannerFixo from '../BannerFixo'
+import Carrossel from '../Carrossel'
 import ProdutoFichaTecnica from '../Produto-FichaTecnica'
 
 import './styles.scss'
@@ -52,7 +53,7 @@ const ProductDetail = () => {
           <div className="img-container">
             <img src={product.imageUrl} alt={product.title} className="produto-img" />
           </div>
-          <BannerFixo />
+          <Carrossel />
         </div>
 
         <div className="produto-descricao">
