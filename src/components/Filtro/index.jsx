@@ -14,6 +14,7 @@ const Filtro = () => {
     <div class="row">
       <div class="col">
         <div class="tabs">
+          <p>Filtrar Produtos</p>
           <div class="tab">
             <input className="arrow" type="checkbox" id="fabricante" />
             <label class="tab-label" for="fabricante">

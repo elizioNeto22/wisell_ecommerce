@@ -1,0 +1,23 @@
+@import '../../styles/colors';
+
+.table-wrapper {
+  margin-top: 300px;
+
+  .table-container {
+    background: $cinza;
+    & div:nth-child(even) {
+      background: $branco;
+    }
+
+    .table-content {
+      padding: 0px 100px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      p {
+        font-size: 16px;
+      }
+    }
+  }
+}

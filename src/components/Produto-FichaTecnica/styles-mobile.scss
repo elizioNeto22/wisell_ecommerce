@@ -1,0 +1,21 @@
+@import '../../styles/colors';
+@import '../../styles/responsive';
+
+@include breakpoint('mobile') {
+  .table-wrapper {
+    .table-container {
+      .table-content {
+        padding: 0px 20px;
+        // width: 90%;
+
+        h5 {
+          font-size: 16px;
+        }
+
+        p {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}

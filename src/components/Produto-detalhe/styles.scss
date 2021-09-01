@@ -1,0 +1,175 @@
+@import '../../styles/colors';
+
+.produto-wrapper {
+  width: 80%;
+  margin: 100px auto 200px auto;
+
+  .produto-container {
+    // width: 100%;
+    height: 22rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .produto-img-container {
+      height: 100%;
+      width: 50%;
+      svg {
+        float: right;
+        margin-right: 100px;
+      }
+      .img-container {
+        height: 100%;
+        .produto-img {
+          width: 100%;
+          height: 100%;
+          object-fit: contain;
+        }
+      }
+      .gallery {
+        height: 80px;
+        width: 100%;
+        margin-top: 50px;
+        .carousel-cell {
+          height: 80px;
+          width: 80px;
+          border-radius: 50%;
+          // width: 15%;
+          // margin-right: 50px;
+          // background: $verde-escuro;
+          // border-radius: 5px;
+          // counter-increment: carousel-cell;
+        }
+      }
+    }
+  }
+
+  .produto-descricao {
+    width: 35%;
+    // height: 100%;
+    border: 2px solid $cinza;
+    border-radius: 5px;
+    padding: 60px 40px;
+    margin-top: 100px;
+    background: $cinza;
+
+    .produto-descricao-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 14px;
+      color: $vermelho;
+      margin-bottom: 20px;
+
+      .produto-promocao {
+        display: flex;
+        align-items: center;
+      }
+    }
+
+    .produto-titulo {
+      margin: 30px 0px;
+      p {
+        display: none;
+      }
+    }
+
+    .produto-valores {
+      margin: 10px 0px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .produto-precos {
+        // font-size: 14px;
+
+        p {
+          margin: 0;
+        }
+        p:first-child {
+          font-size: 11px;
+          text-decoration: line-through;
+          text-align: left;
+        }
+      }
+      .produto-quantidade {
+        display: flex;
+        align-items: center;
+
+        p {
+          padding: 0px 10px;
+          // color: $cinza-escuro;
+        }
+
+        svg {
+          cursor: pointer;
+          // stroke-width: 0.1px;
+          fill: $cinza-escuro;
+        }
+      }
+    }
+
+    .produto-btn-comprar {
+      width: 100%;
+      padding: 20px;
+      margin: 15px 0px;
+      border-radius: 5px;
+      background: $verde;
+      color: $branco;
+      &:hover {
+        background: $marrom;
+      }
+    }
+
+    .produto-frete {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+
+      margin: 10px 0px;
+      p {
+        font-size: 14px;
+      }
+      input {
+        width: 100%;
+        padding: 10px 20px;
+        border-radius: 5px;
+        border: 1px solid $cinza-escuro;
+      }
+    }
+
+    .dropdown {
+      .dropbtn {
+        color: $marrom;
+        font-size: 14px;
+      }
+      .dropdown-content {
+        width: 200px;
+        padding: 0;
+        border: 1px solid $marrom;
+        background: $cinza;
+
+        a {
+          color: $marrom;
+          font-size: 12px;
+          padding: 5px;
+
+          // &::after {
+          //   background: none;
+          // }
+          &:hover::after {
+            width: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+// column-count: ;
+// writing-mode: ;
+// word-wrap:  ;
+// width: res;
+.dropdown:hover .dropdown-content {
+  grid-template-columns: 1fr;
+}

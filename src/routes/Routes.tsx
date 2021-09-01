@@ -3,7 +3,7 @@ import { Switch, Route } from 'react-router-dom'
 
 import Homepage from '../pages/Homepage'
 import Products from '../pages/Products'
-import ProductDetail from '../pages/ProductDetail'
+import ProductDetail from '../components/Produto-detalhe'
 import ContactPage from '../pages/ContactPage'
 import BuyRoutes from './BuyRoutes'
 import OrderRoutes from './OrderRoutes'
