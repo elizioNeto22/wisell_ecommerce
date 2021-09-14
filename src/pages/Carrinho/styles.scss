@@ -1,0 +1,55 @@
+@import '../../styles/colors';
+
+.carrinhobtn {
+  background-color: transparent;
+  color: white;
+  padding: 5px 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.carrinho {
+  width: 50%;
+  display: inline-block;
+}
+
+.carrinho-content {
+  // background-color: $cinza;
+  padding: 1rem;
+  z-index: 1;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.carrinho .cart-pay {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .carrinho-frete {
+    input {
+      width: 200px;
+      padding: 10px 20px;
+      border-radius: 5px;
+      border: 1px solid $cinza-escuro;
+    }
+  }
+
+  p {
+    // font-size: 16px;
+    color: $marrom;
+  }
+
+  button {
+    color: $branco;
+    padding: 12px 50px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background: $verde-escuro;
+    color: $branco;
+    &:hover {
+      background: $verde;
+    }
+  }
+}

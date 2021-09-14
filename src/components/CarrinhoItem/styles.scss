@@ -1,12 +1,11 @@
+@import '../../styles/colors';
+
 .cart-item {
-  position: relative;
   display: flex;
+  justify-content: space-around;
   margin: 15px 0px;
-  transition: 0.5s;
-  box-shadow: 0px 5px 5px 0px #00000018;
-  &:hover {
-    box-shadow: 0px 5px 5px 0px #0000006f;
-  }
+  border-radius: 5px;
+  background-color: $cinza;
 
   img {
     height: 125px;
@@ -14,28 +13,30 @@
   }
 
   .item-info {
-    align-self: center;
-    max-height: 110px;
-    width: 100%;
-    padding: 0px 20px 0px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
     font-size: 14px;
+    .paragraph {
+      padding: 0px 25px;
+    }
     span {
       font-size: 8px;
     }
     .quantity {
-      font-size: 14px;
+      padding: 0px 5px;
+      font-size: 22px;
     }
     .quantity-icon {
-      display: none;
+      svg {
+        font-size: 18px;
+        padding: 0px 10px;
+      }
     }
 
     .trash {
       cursor: pointer;
-      width: 15px;
-      height: 20px;
-      position: absolute;
-      right: 10px;
-      bottom: 13px;
+      font-size: 18px;
       transition: 0.3s;
       &:hover {
         fill: #ffffff;

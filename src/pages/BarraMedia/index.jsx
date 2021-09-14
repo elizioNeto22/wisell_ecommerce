@@ -4,7 +4,7 @@ import { FiUser, FiShoppingCart } from 'react-icons/fi'
 import { ReactComponent as Logo } from '../../assets/logo3.svg'
 import CustomLink from '../../components/Link'
 import HamburgerMenu from '../../components/HamburgerMenu'
-import Carrinho from '../../components/Carrinho'
+// import Carrinho from '../../components/Carrinho'
 import BarraMediaMobile from './index-mobile'
 
 import './styles.scss'
@@ -34,8 +34,10 @@ const BarraMedia = () => {
               </p>
             </li>
             <li className="carrinho-icone">
-              <FiShoppingCart />
-              <Carrinho items={[]} />
+              <Link to="/cart">
+                <FiShoppingCart />
+                {/* <Carrinho /> */}
+              </Link>
             </li>
             <li className="user-icone">
               <FiUser />

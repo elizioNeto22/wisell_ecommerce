@@ -2,6 +2,7 @@ import React from 'react'
 import { Switch, Route } from 'react-router-dom'
 
 import Homepage from '../pages/Homepage'
+import Carrinho from '../pages/Carrinho'
 import Products from '../pages/Products'
 import ProductDetail from '../components/Produto-detalhe'
 import ContactPage from '../pages/ContactPage'
@@ -32,6 +33,9 @@ const Routes: React.FC<Props> = () => {
         </Route>
         <Route path="/products">
           <Products />
+        </Route>
+        <Route path="/cart" exact>
+          <Carrinho />
         </Route>
         <Route path="/" exact>
           <Homepage />
