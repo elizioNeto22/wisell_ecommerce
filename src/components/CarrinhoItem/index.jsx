@@ -1,6 +1,7 @@
 import React from 'react'
 import { BiTrash, BiPlusCircle, BiMinusCircle } from 'react-icons/bi'
 import './styles.scss'
+import './styles-mobile.scss'
 
 const CarrinhoItem = () => {
   return (

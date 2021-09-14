@@ -4,6 +4,7 @@ import CustomButton from '../../components/Button'
 import CarrinhoItem from '../../components/CarrinhoItem'
 
 import './styles.scss'
+import './styles-mobile.scss'
 
 const Carrinho = () => (
   <div class="carrinho">

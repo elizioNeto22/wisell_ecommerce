@@ -1,0 +1,11 @@
+@import '../../styles/colors';
+@import '../../styles/responsive';
+@include breakpoint('mobile') {
+  .carrinho {
+    width: 100%;
+
+    .cart-pay {
+      display: inherit;
+    }
+  }
+}

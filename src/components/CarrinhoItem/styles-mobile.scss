@@ -1,0 +1,35 @@
+@import '../../styles/colors';
+@import '../../styles/responsive';
+@include breakpoint('mobile') {
+  .cart-item {
+    display: inherit;
+    img {
+      margin: 0px auto;
+    }
+
+    .item-info {
+      font-size: 12px;
+      .paragraph {
+        font-size: 14px;
+        padding: 0px 25px;
+      }
+
+      div {
+        display: flex;
+      }
+      span {
+        font-size: 8px;
+      }
+      .quantity {
+        padding: 0px 5px;
+        font-size: 16px;
+      }
+      .quantity-icon {
+        svg {
+          font-size: 18px;
+          padding: 0px 10px;
+        }
+      }
+    }
+  }
+}
