@@ -15,7 +15,7 @@
 The aplication has a lot to improve and will improve everyday.
 If you want to give a feedback or something else i'll be truly happy to receive your message.
 
-[✉️ - e-mail](elizionetodrive@gmail.com)
-[💻 - Portfolio](elizionetoportfolio.netlify.app/)
+[e-mail](elizionetodrive@gmail.com)
+[Portfolio](elizionetoportfolio.netlify.app/)
 [![linkedIn](https://img.icons8.com/color/25/000000/linkedin.png)](https://www.linkedin.com/in/elizioneto)
 [![gitHub](https://img.icons8.com/ios-glyphs/25/000000/github.png)](https://github.com/elizioNeto22)
